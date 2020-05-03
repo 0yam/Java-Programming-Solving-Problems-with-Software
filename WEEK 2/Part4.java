@@ -23,7 +23,7 @@ public class Part4 {
         if ( endQuotation == -1 ){
             return "";
         }
-        return words.substring(openQuotation, endQuotation+1);
+        return words.substring(openQuotation+1, endQuotation);
     }
     public void testYoutubeURL(){
         String url = "http://www.dukelearntoprogram.com/course2/data/manylinks.html";
